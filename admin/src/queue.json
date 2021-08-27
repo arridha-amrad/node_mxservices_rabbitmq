@@ -1,0 +1,6 @@
+{
+  "productCreated": "product_created",
+  "productDeleted": "product_deleted",
+  "productUpdated": "product_updated",
+  "productLiked": "product_liked"
+}

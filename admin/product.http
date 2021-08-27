@@ -1,0 +1,27 @@
+GET http://localhost:5001/api/products
+
+###
+GET http://localhost:5001/api/product/2
+
+###
+POST http://localhost:5001/api/products
+Content-Type: application/json
+
+{
+	"title": "mac book air M1",
+	"image": "mac book air M1 image"
+}
+
+###
+PUT http://localhost:5001/api/product/8
+Content-Type: application/json
+
+{
+  "title": "Mac Air M1 8GB"
+}
+
+###
+DELETE http://localhost:5001/api/product/7
+
+### 
+POST http://localhost:5001/api/product/8/like
